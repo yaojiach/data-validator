@@ -1,0 +1,15 @@
+[paths]
+source =
+    ../data_validator
+    */site-packages/data_validator
+
+[run]
+branch = true
+parallel = true
+source =
+    data_validator
+    .
+
+[report]
+show_missing = true
+precision = 2

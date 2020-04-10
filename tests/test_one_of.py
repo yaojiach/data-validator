@@ -19,4 +19,5 @@ def test_one_of_fail(one_of_tester):
 
 def test_one_of_success(one_of_tester):
     one_of_tester.tester = 'python'
+    print(one_of_tester.tester)
     assert one_of_tester.tester == 'python'

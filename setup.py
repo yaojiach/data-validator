@@ -21,7 +21,7 @@ setup(
     maintainer='Jiachen Yao',
     description='Data Validator ABC',
     long_description='Data Validator ABC',
-    packages=find_packages(exclude=['tests']),
+    packages=find_packages(include=['data_validator']),
     include_package_data=True,
     python_requires='>=3.6',
     install_requires=[],
